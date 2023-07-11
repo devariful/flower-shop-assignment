@@ -1,0 +1,48 @@
+/* header section */
+
+
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    align-items: center;
+}
+.header-container{
+    height: 850px;
+    background-color:#E554731A ;
+}
+.header-left h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    margin-bottom:32px ;
+    
+}
+
+.header-left p{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    
+}
+.header-img{
+    margin-top: 50px;
+}
+.btn-primary{
+    padding: 20px 43px; 
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+
