@@ -26,15 +26,7 @@
     
 }
 
-.header-left p{
-    color: #272727;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Lato', sans-serif;
-    width: 70%;
-    
-}
+
 .header-img{
     margin-top: 50px;
 }
@@ -54,48 +46,47 @@
     width: 65%;
     text-align: center;
     margin-top: 150px;
+
 }
 
-.featured-content h3{
+.h-primary{
     color: #272727;
 text-align: center;
 font-family: Lato;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
+margin-bottom: 0px;
 
 
 }
-
-.featured-content p{
+.p-primary{
+    text-align: ;
     color: #272727;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
     font-family: 'Lato', sans-serif;
+    width: 70%;
+    
+}
+
+.featured-content p{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
     
 }
 
 .featured-cards{
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 30px;
     
    
 }
-.card-one{
-    background-image: url('../Asset/pngwing-7.png') ;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-color:#FDF78B;
-    width:480px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
-    
- 
 
-
-}
 
 .card-one-top{
 
@@ -103,6 +94,18 @@ font-weight: 800;
     align-items: baseline;
    
    
+}
+
+/* deal  */
+
+.deal{
+    background-color:#FDF6F8 ;
+    height: 620px;
+
+}
+
+.deal-left h2{
+
 }
 
 .card-img{
@@ -126,12 +129,25 @@ font-weight: 800;
 
 }
 
+.card-one{
+    background-image: url('../Asset/pngwing-7.png') ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color:#FDF78B;
+    width:460px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    
+ 
+
+
+}
 .card-two {
     background-image: url('../Asset/pngwing-5.png') ;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #DAF0F1;
-    width:480px;
+    width:460px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
 }
@@ -141,7 +157,7 @@ font-weight: 800;
     background-size: 70%;
     background-repeat: no-repeat;
     background-color: #E4ECDB;
-    width:480px;
+    width:460px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
 }
@@ -149,3 +165,81 @@ font-weight: 800;
 
 
 
+/* service */
+
+.services{
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+ 
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.serv-one{
+    width: 25%;
+    justify-content: space-around;
+    padding:40px 20px ;
+}
+
+
+.serv-one h5{
+    margin: auto;
+  text-align: center;
+}
+
+.deal-left p{
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+}
+.deal-container{
+    margin-top: 100px;
+    justify-content: space-around;
+    padding: 100px 50px;
+    text-align: center;
+}
+.deal-left button{
+   margin: 20px;
+
+}
+.span-one{
+    color: red;
+}
+
+.insta{
+    text-align: center;
+    margin: 100px 0px;
+   
+
+}
+
+.insta-content{
+
+    
+    margin: auto;
+   
+}
+
+.insta-p{
+    padding: 50px;
+    text-align: center;
+    margin:0 auto;
+  
+}
+
+.insta-images{
+    display: flex;
+    gap: 25px;
+
+   
+}
+
+.insta-images img{ 
+    width: 300px;
+    
+}
